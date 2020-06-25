@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAE3D9"
+    android:orientation="vertical"
+    tools:context=".DisplayMessageActivity">
+
+    <TextView
+        android:id="@+id/scorestitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/baloo_thambi"
+        android:text="Scores"
+        android:textColor="#000000"
+        android:textSize="50sp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="20sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="50dp">
+
+        <TextView
+            android:id="@+id/xwins"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="40dp"
+            android:fontFamily="@font/baloo_thambi"
+            android:text="X wins"
+            android:textColor="#000000"
+            android:textSize="40sp"
+            android:gravity="center"
+            android:background="@drawable/whiteround"
+            android:layout_width="125dp"
+            android:layout_height="75dp"/>
+
+        <TextView
+            android:id="@+id/xscore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="40dp"
+            android:fontFamily="@font/baloo_thambi"
+            android:text="Score"
+            android:textColor="#737373"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/times1"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="40dp"
+            android:fontFamily="@font/baloo_thambi"
+            android:text="Times"
+            android:textColor="#000000"
+            android:textSize="40sp"
+            android:gravity="center"
+            android:background="@drawable/whiteround"
+            android:layout_width="125dp"
+            android:layout_height="75dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="60dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/owins"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="40dp"
+            android:fontFamily="@font/baloo_thambi"
+            android:text="O wins"
+            android:textColor="#000000"
+            android:textSize="40sp"
+            android:gravity="center"
+            android:background="@drawable/whiteround"
+            android:layout_width="125dp"
+            android:layout_height="75dp"/>
+
+        <TextView
+            android:id="@+id/oscore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="40dp"
+            android:fontFamily="@font/baloo_thambi"
+            android:text="Score"
+            android:textColor="#737373"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/times2"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="40dp"
+            android:fontFamily="@font/baloo_thambi"
+            android:text="Times"
+            android:textColor="#000000"
+            android:textSize="40sp"
+            android:gravity="center"
+            android:background="@drawable/whiteround"
+            android:layout_width="125dp"
+            android:layout_height="75dp"/>
+    </LinearLayout>
+
+
+</LinearLayout>
